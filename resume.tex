@@ -1,0 +1,148 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kennedy Mindeman} \\ \vspace{1pt}
+    \small 952-228-7671 $|$ \href{mailto:kennedymindeman@gmail.com}{\underline{kennedymindeman@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/kennedy-mindeman/}{\underline{linkedin.com/in/kennedy-mindeman}} $|$
+    \href{https://github.com/kennedymindeman}{\underline{github.com/kennedymindeman}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Minnesota Duluth}{Duluth, MN}
+      {Bachelor of Science in Electrical Engineering, Computer Engineering}{Aug. 2015 -- May 2019}
+      \resumeItemListStart
+        \resumeItem{GPA: 3.95/4.00 | Dean's list 8/8 semesters | Tau Beta Pi}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Embedded Firmware Engineer}{Dec 2021 -- Present}
+      {Bobcat Company}{[City, State]}
+      \resumeItemListStart
+        \resumeItem{Proved concept of using automotive ethernet in vehicles}
+        \resumeItem{Developed method for remote vehicle updates}
+        \resumeItem{Automated synchronization of databases for fault code management}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Teaching Assistant}{Aug 2019 -- Aug 2021}
+      {University of Minnesota}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Graded assignments, held office hours, and oversaw lab work for hundreds of students}
+        \resumeItem{Aided in debugging malfunctioning code and circuitry}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Digital Engineering Intern}{Jan 2020 -- Apr 2020}
+      {NASA Glenn Research Center}{Cleveland, OH}
+      \resumeItemListStart
+        \resumeItem{Implemented part of a receiver candidate for Artemis project using VHDL}
+        \resumeItem{Designed data input process using state machines and digital logic components}
+        \resumeItem{Simulated test cases using Vivado Simulator and MATLAB}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2019 -- Aug 2019}
+      {Open Systems International}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Added functionality to Operator Training Simulator Framework}
+        \resumeItem{Created system for querying and importing event data from multiple servers}
+        \resumeItem{Maintained C codebase, managing memory and emulating polymorphic behavior}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeItemListStart
+  \resumeItem{Machine Learning Specialization - DeepLearning.AI (2023)}
+  \resumeItem{Troubleshooting and Debugging Techniques - Google (2023)}
+  \resumeItem{Introduction to Git and Github - Google (2023)}
+\resumeItemListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, VHDL, Assembly, SQL, JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: Qt, TensorFlow, PyTorch, Django, Flask, React, Angular, Vue.js, Node.js, Express.js, .NET Framework, Unity, FreeRTOS, Arduino Framework, OpenGL, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, GitHub, Linux, Vivado Simulator, MATLAB, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\resumeItemListStart
+  \resumeItem{English (Native), German (Elementary)}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
